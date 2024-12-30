@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tombola Online</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; }
+    .tabellone { display: grid; grid-template-columns: repeat(10, 40px); gap: 5px; justify-content: center; }
+    .numero { width: 40px; height: 40px; line-height: 40px; border: 1px solid #000; border-radius: 5px; }
+    .estratto { background-color: yellow; }
+    button { margin: 20px; padding: 10px 20px; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <h1>Tombola Online</h1>
+  <div class="tabellone" id="tabellone"></div>
+  <button id="estrai">Estrai Numero</button>
+  <p id="numero-estratto"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
